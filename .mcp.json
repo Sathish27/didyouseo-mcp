@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "didyouseo": {
+      "type": "http",
+      "url": "https://didyouseo.com/mcp"
+    }
+  }
+}
