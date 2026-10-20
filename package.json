@@ -6,7 +6,14 @@
   },
   "description": "Connect DidYouSEO's SEO audit and site tools to any MCP client (Claude, ChatGPT, Cursor). A stdio bridge to the DidYouSEO remote MCP server, with OAuth handled for you.",
   "license": "MIT",
-  "homepage": "https://didyouseo.com/docs/api",
+  "homepage": "https://didyouseo.com/mcp-server",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sathish27/didyouseo-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sathish27/didyouseo-mcp/issues"
+  },
   "type": "module",
   "bin": {
     "didyouseo-mcp": "./bin/cli.mjs"
@@ -27,6 +34,7 @@
     "claude",
     "chatgpt",
     "cursor",
-    "didyouseo"
+    "didyouseo",
+    "search-console"
   ]
 }
