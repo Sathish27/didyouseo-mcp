@@ -1,6 +1,7 @@
 {
   "name": "@didyouseo/mcp",
   "version": "0.1.0",
+  "mcpName": "com.didyouseo/mcp",
   "publishConfig": {
     "access": "public"
   },
@@ -36,5 +37,8 @@
     "cursor",
     "didyouseo",
     "search-console"
-  ]
+  ],
+  "dependencies": {
+    "mcp-remote": "0.14.3"
+  }
 }
