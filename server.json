@@ -3,7 +3,7 @@
   "name": "com.didyouseo/mcp",
   "title": "DidYouSEO",
   "description": "SEO audits, Search Console, GA4, keyword and backlink data for Claude, ChatGPT and Cursor.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://didyouseo.com/mcp-server",
   "repository": {
     "url": "https://github.com/Sathish27/didyouseo-mcp",
@@ -13,7 +13,19 @@
     {
       "src": "https://didyouseo.com/logo.png",
       "mimeType": "image/png",
-      "sizes": ["1920x1920"]
+      "sizes": [
+        "1920x1920"
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@didyouseo/mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
     }
   ],
   "remotes": [
