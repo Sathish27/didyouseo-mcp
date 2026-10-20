@@ -17,7 +17,7 @@
   },
   "type": "module",
   "bin": {
-    "didyouseo-mcp": "./bin/cli.mjs"
+    "didyouseo-mcp": "bin/cli.mjs"
   },
   "files": [
     "bin",
