@@ -11,13 +11,20 @@
   "homepage": "https://didyouseo.com/mcp-server",
   "repository": "https://github.com/Sathish27/didyouseo-mcp",
   "license": "MIT",
-  "keywords": ["seo", "seo audit", "search console", "google analytics", "keywords", "backlinks"],
+  "keywords": [
+    "seo",
+    "seo audit",
+    "search console",
+    "google analytics",
+    "keywords",
+    "backlinks"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
         "displayName": "DidYouSEO",
-        "shortDescription": "SEO audits, Search Console and GA4 insights for your website.",
-        "longDescription": "DidYouSEO turns ChatGPT into an SEO assistant that works with your real data. Audit any page and get a score out of 100 with a ranked list of issues and how to fix each one. Check meta tags, robots.txt, structured data, Open Graph, hreflang and how a page looks in Google results, and run PageSpeed Insights for Core Web Vitals. Connect Google Search Console to see your real queries, which queries are gaining or losing clicks, and pages competing for the same keyword. Connect Google Analytics to see organic traffic, engagement, conversions and visits from AI assistants. Paid plans add search volume, keyword difficulty, keyword ideas and backlink strength. Sign in with your DidYouSEO account; Search Console and Google Analytics are connected read-only on didyouseo.com.",
+        "shortDescription": "SEO audits and Search Console",
+        "longDescription": "DidYouSEO helps website owners, marketers and SEO consultants find and fix SEO problems using their real data.\n\nWhat you can do:\n- Audit any public page: get a score out of 100 and a ranked list of issues, each with how to fix it.\n- Check meta tags, robots.txt, structured data, Open Graph, hreflang and how a page looks in Google results.\n- Run PageSpeed Insights and see Core Web Vitals.\n- See your Google Search Console queries, the queries gaining or losing clicks, and pages competing for the same keyword.\n- See your Google Analytics organic traffic, engagement, conversions and visits from AI assistants.\n- Look up search volume, keyword difficulty, keyword ideas and the backlink strength of any domain.\n\nLimitations: you sign in with a DidYouSEO account. Search Console and Google Analytics data appear only after you connect them, read-only, on didyouseo.com. Keyword and backlink lookups use DidYouSEO AI credits from your account. Audits check one page at a time and only public pages; DidYouSEO never changes anything on the sites it checks.",
         "developerName": "DidYouSEO",
         "category": "Productivity",
         "websiteURL": "https://didyouseo.com",
@@ -27,8 +34,7 @@
         "defaultPrompt": [
           "Run an SEO audit on my homepage and tell me what to fix first.",
           "Which of my Search Console queries rank on page 2 and could reach page 1?",
-          "How much organic traffic did my site get this month compared with last month?",
-          "Check the structured data on this page and tell me if it qualifies for rich results."
+          "How much organic traffic did my site get this month compared with last month?"
         ],
         "brandColor": "#10B981",
         "brandColorDark": "#10B981",
