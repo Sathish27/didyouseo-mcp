@@ -92,7 +92,8 @@
               "prompt": "Book me a flight from London to Paris next Friday"
             }
           ]
-        }
+        },
+        "demo_recording_url": "https://youtu.be/7dgo20JQAeA"
       },
       "publication": {
         "release_notes": "First release: SEO audits, page checks (meta tags, robots.txt, structured data, Open Graph, hreflang, SERP preview, Core Web Vitals, PageSpeed Insights), Google Search Console and GA4 reports, and keyword and backlink lookups."
