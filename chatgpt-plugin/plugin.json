@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "didyouseo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "SEO audits, Google Search Console and GA4 insights, keyword and backlink data from DidYouSEO.",
   "author": {
     "name": "DidYouSEO",
@@ -24,7 +24,7 @@
       "interface": {
         "displayName": "DidYouSEO",
         "shortDescription": "SEO audits and Search Console",
-        "longDescription": "DidYouSEO helps website owners, marketers and SEO consultants find and fix SEO problems using their real data.\n\nWhat you can do:\n- Audit any public page: get a score out of 100 and a ranked list of issues, each with how to fix it.\n- Check meta tags, robots.txt, structured data, Open Graph, hreflang and how a page looks in Google results.\n- Run PageSpeed Insights and see Core Web Vitals.\n- See your Google Search Console queries, the queries gaining or losing clicks, and pages competing for the same keyword.\n- See your Google Analytics organic traffic, engagement, conversions and visits from AI assistants.\n- Look up search volume, keyword difficulty, keyword ideas and the backlink strength of any domain.\n\nLimitations: you sign in with a DidYouSEO account. Search Console and Google Analytics data appear only after you connect them, read-only, on didyouseo.com. Keyword and backlink lookups use DidYouSEO AI credits from your account. Audits check one page at a time and only public pages; DidYouSEO never changes anything on the sites it checks.",
+        "longDescription": "DidYouSEO helps website owners, marketers and SEO consultants find and fix SEO problems using their real data.\n\nWhat you can do:\n- Audit any public page: get a score out of 100 and a ranked list of issues, each with how to fix it.\n- Check meta tags, robots.txt, structured data, Open Graph, hreflang and how a page looks in Google results.\n- Run PageSpeed Insights and see Core Web Vitals.\n- See your Google Search Console queries, the queries gaining or losing clicks, and pages competing for the same keyword.\n- See your Google Analytics organic traffic, engagement, conversions and visits from AI assistants.\n- Look up search volume, keyword difficulty, keyword ideas and the backlink strength of any domain.\n\nReady-made skills turn these into finished work: an audit fix plan, a weekly or client SEO report, quick wins close to page one, a traffic drop diagnosis, AI assistant traffic, AI search readiness, a competitor comparison and a keyword brief.\n\nLimitations: you sign in with a DidYouSEO account. On the Free plan you get 10 page checks a day (audits and the single-URL tools) and a short preview of your Search Console and Google Analytics data. Search Console and Google Analytics data appear only after you connect them, read-only, on didyouseo.com. Keyword and backlink lookups use DidYouSEO AI credits from your account. Audits check one page at a time and only public pages; DidYouSEO never changes anything on the sites it checks.",
         "developerName": "DidYouSEO",
         "category": "Business & Operations",
         "websiteURL": "https://didyouseo.com",
@@ -96,7 +96,7 @@
         "demo_recording_url": "https://youtu.be/h0Py3gX9yKc"
       },
       "publication": {
-        "release_notes": "First release: SEO audits, page checks (meta tags, robots.txt, structured data, Open Graph, hreflang, SERP preview, Core Web Vitals, PageSpeed Insights), Google Search Console and GA4 reports, and keyword and backlink lookups."
+        "release_notes": "Adds 14 ready-made SEO skills: audit fix plan, weekly and client SEO reports, striking distance keywords, low click-through titles, long-question answers, keyword cannibalization, traffic drop diagnosis, on-page rewrite, pre-launch check, competitor comparison, keyword research brief, AI assistant traffic and AI search readiness. The description now states the Free plan limits: 10 page checks a day and previews of Search Console and Google Analytics data."
       }
     }
   }
