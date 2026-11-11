@@ -1,5 +1,7 @@
 # @didyouseo/mcp
 
+[![mcptry](https://mcptry.com/badge/com.didyouseo/mcp)](https://mcptry.com/servers/com.didyouseo/mcp)
+
 Connect [DidYouSEO](https://didyouseo.com)'s SEO tools to any AI assistant that
 supports the Model Context Protocol (MCP).
 
