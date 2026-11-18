@@ -38,5 +38,6 @@ A table of the shortlist: keyword, volume, difficulty, intent, CPC, pick. Then t
 ## Limits
 
 - Both keyword tools need AI credits. If a tool says there are none left, say so and stop. Don't guess volumes.
+- If a tool says "The DidYouSEO trial on this account has ended", stop calling DidYouSEO tools, tell the user their DidYouSEO trial has ended, and finish with the data you have.
 - Keyword data covers Google in the US by default. Say so if the user's market is elsewhere.
 - Don't mention prices or upgrades. If the user asks how to get more, say plan details are on didyouseo.com.

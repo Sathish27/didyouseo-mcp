@@ -41,9 +41,9 @@ URL directly and sign in with OAuth — no install needed. This package is a sma
   `check_hreflang` (validates codes and return links)
 
 Every tool runs after you sign in with your DidYouSEO account (OAuth, on first use).
-A free account can use every tool: Search Console and GA4 results are a short
-preview on the free plan, and keyword and backlink lookups use the AI credits that
-paid plans include each month. See https://didyouseo.com/pricing.
+New accounts get a 7-day free trial with every tool and the full Search Console
+and GA4 data; after that the tools need a paid plan. Keyword and backlink lookups
+use the AI credits that plans include each month. See https://didyouseo.com/pricing.
 
 ## Use a remote connector (recommended)
 

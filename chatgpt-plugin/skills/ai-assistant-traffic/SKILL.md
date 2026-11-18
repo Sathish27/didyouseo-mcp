@@ -39,6 +39,5 @@ Next: <one or two actions>
 
 ## Limits
 
-- On the Free plan the Google Analytics tool returns a short preview of landing pages. Say so if the list looks short.
-- `check_robots_txt` counts as a page check. If a tool says "Daily limit reached", stop, tell the user the limit resets at 00:00 UTC, and finish with what you have.
+- If a tool says "The DidYouSEO trial on this account has ended", stop calling DidYouSEO tools, tell the user their DidYouSEO trial has ended, and finish with the data you have.
 - Don't mention prices or upgrades. If the user asks how to get more, say plan details are on didyouseo.com.

@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "didyouseo",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "SEO audits, Google Search Console and GA4 insights, ChatGPT Ads reporting, keyword and backlink data from DidYouSEO.",
   "author": {
     "name": "DidYouSEO",
@@ -25,7 +25,7 @@
       "interface": {
         "displayName": "DidYouSEO",
         "shortDescription": "SEO audits and Search Console",
-        "longDescription": "DidYouSEO helps website owners, marketers and SEO consultants find and fix SEO problems using their real data.\n\nWhat you can do:\n- Audit any public page: get a score out of 100 and a ranked list of issues, each with how to fix it.\n- Check meta tags, robots.txt, structured data, Open Graph, hreflang and how a page looks in Google results.\n- Run PageSpeed Insights and see Core Web Vitals.\n- See your Google Search Console queries, the queries gaining or losing clicks, and pages competing for the same keyword.\n- See your Google Analytics organic traffic, engagement, conversions and visits from AI assistants.\n- Look up search volume, keyword difficulty, keyword ideas and the backlink strength of any domain.\n- See your ChatGPT Ads results: spend, impressions, clicks, CTR, CPC and conversions for every ad account you connect, by campaign, ad group, ad, country and device. Agencies can see all their clients' ad accounts in one list.\n\nReady-made skills turn these into finished work: an audit fix plan, a weekly or client SEO report, quick wins close to page one, a traffic drop diagnosis, AI assistant traffic, AI search readiness, a competitor comparison and a keyword brief.\n\nLimitations: you sign in with a DidYouSEO account. Audits and single-URL checks have a daily usage limit, and Search Console and Google Analytics results can be shortened. Search Console and Google Analytics data appear only after you connect them, read-only, on didyouseo.com. ChatGPT Ads data appears only after you add an API key from Ads Manager on didyouseo.com; DidYouSEO only reads ad data and never creates, changes or pays for ads. Keyword and backlink lookups are not available on every account. Audits check one page at a time and only public pages; DidYouSEO never changes anything on the sites it checks.",
+        "longDescription": "DidYouSEO helps website owners, marketers and SEO consultants find and fix SEO problems using their real data.\n\nWhat you can do:\n- Audit any public page: get a score out of 100 and a ranked list of issues, each with how to fix it.\n- Check meta tags, robots.txt, structured data, Open Graph, hreflang and how a page looks in Google results.\n- Run PageSpeed Insights and see Core Web Vitals.\n- See your Google Search Console queries, the queries gaining or losing clicks, and pages competing for the same keyword.\n- See your Google Analytics organic traffic, engagement, conversions and visits from AI assistants.\n- Look up search volume, keyword difficulty, keyword ideas and the backlink strength of any domain.\n- See your ChatGPT Ads results: spend, impressions, clicks, CTR, CPC and conversions for every ad account you connect, by campaign, ad group, ad, country and device. Agencies can see all their clients' ad accounts in one list.\n\nReady-made skills turn these into finished work: an audit fix plan, a weekly or client SEO report, quick wins close to page one, a traffic drop diagnosis, AI assistant traffic, AI search readiness, a competitor comparison and a keyword brief.\n\nLimitations: you sign in with a DidYouSEO account. Search Console and Google Analytics data appear only after you connect them, read-only, on didyouseo.com. ChatGPT Ads data appears only after you add an API key from Ads Manager on didyouseo.com; DidYouSEO only reads ad data and never creates, changes or pays for ads. Keyword and backlink lookups are not available on every account. Audits check one page at a time and only public pages; DidYouSEO never changes anything on the sites it checks.",
         "developerName": "DidYouSEO",
         "category": "Business & Operations",
         "websiteURL": "https://didyouseo.com",
@@ -103,7 +103,7 @@
         "demo_recording_url": "https://youtu.be/h0Py3gX9yKc"
       },
       "publication": {
-        "release_notes": "Adds ChatGPT Ads reporting: three read-only tools that list every connected ChatGPT Ads account with its results, report on one account, and run custom reports by campaign, ad group, ad, country, device, platform or product. Users connect an ad account by adding an Ads Manager API key on didyouseo.com."
+        "release_notes": "Updates the 14 bundled SEO skills so the assistant handles account limits correctly, and removes the outdated note about daily usage limits from the description."
       }
     }
   }
