@@ -1,5 +1,7 @@
 # @didyouseo/mcp
 
+[![Sathish27/didyouseo-mcp MCP server](https://glama.ai/mcp/servers/Sathish27/didyouseo-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Sathish27/didyouseo-mcp)
+
 Connect [DidYouSEO](https://didyouseo.com)'s SEO tools to any AI assistant that
 supports the Model Context Protocol (MCP).
 
