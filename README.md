@@ -10,26 +10,6 @@ that support remote MCP servers (Claude, ChatGPT, Cursor) can connect to that
 URL directly and sign in with OAuth — no install needed. This package is a small
 **stdio bridge** for clients that only support local MCP servers.
 
-## Claude Code and Claude Cowork plugin
-
-The plugin installs the MCP connection and all 14 DidYouSEO SEO skills in one step:
-
-```
-/plugin install didyouseo --marketplace Sathish27/didyouseo-mcp
-```
-
-Or in two steps:
-
-```
-/plugin marketplace add Sathish27/didyouseo-mcp
-/plugin install didyouseo@didyouseo
-```
-
-Then type `/mcp`, select the DidYouSEO server and choose Authenticate. Approve access in the browser.
-Skills run as `/didyouseo:<skill>`, for example `/didyouseo:weekly-seo-report`.
-The plugin lives in [`plugins/didyouseo`](plugins/didyouseo); the skills are copied
-from the web repo with `sh scripts/sync-skills.sh`.
-
 ## Tools
 
 21 tools in five groups.
@@ -74,6 +54,26 @@ https://didyouseo.com/mcp
 ```
 
 You'll be prompted to sign in with DidYouSEO the first time.
+
+## Claude Code and Claude Cowork plugin
+
+The plugin installs the MCP connection and all 14 DidYouSEO SEO skills in one step:
+
+```
+/plugin install didyouseo --marketplace Sathish27/didyouseo-mcp
+```
+
+Or in two steps:
+
+```
+/plugin marketplace add Sathish27/didyouseo-mcp
+/plugin install didyouseo@didyouseo
+```
+
+Then type `/mcp`, select the DidYouSEO server and choose Authenticate. Approve access in the browser.
+Skills run as `/didyouseo:<skill>`, for example `/didyouseo:weekly-seo-report`.
+The plugin lives in [`plugins/didyouseo`](plugins/didyouseo); the skills are copied
+from the web repo with `sh scripts/sync-skills.sh`.
 
 ## Use the stdio bridge
 
