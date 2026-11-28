@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "didyouseo",
+  "owner": {
+    "name": "DidYouSEO",
+    "email": "hello@didyouseo.com",
+    "url": "https://didyouseo.com"
+  },
+  "description": "DidYouSEO's official plugin marketplace for Claude Code and Claude Cowork.",
+  "plugins": [
+    {
+      "name": "didyouseo",
+      "source": "./plugins/didyouseo",
+      "description": "SEO audits, Google Search Console and GA4 insights, keyword and backlink data, saved reports and IndexNow, plus 14 ready-made SEO skills.",
+      "category": "SEO",
+      "tags": ["seo", "seo-audit", "search-console", "google-analytics", "keywords", "backlinks", "indexnow"]
+    }
+  ]
+}

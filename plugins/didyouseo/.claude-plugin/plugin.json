@@ -1,0 +1,20 @@
+{
+  "name": "didyouseo",
+  "displayName": "DidYouSEO",
+  "version": "1.0.0",
+  "description": "Audit pages, read your Google Search Console and GA4 data, look up keywords and backlinks, save and share reports, and submit new pages to IndexNow, with 14 ready-made SEO skills.",
+  "author": {
+    "name": "DidYouSEO",
+    "email": "hello@didyouseo.com",
+    "url": "https://didyouseo.com"
+  },
+  "homepage": "https://didyouseo.com/mcp-server",
+  "documentationUrl": "https://didyouseo.com/mcp-server/claude-code",
+  "supportUrl": "https://didyouseo.com/contact",
+  "privacyPolicyUrl": "https://didyouseo.com/privacy",
+  "termsOfServiceUrl": "https://didyouseo.com/terms",
+  "icon": "./assets/icon.png",
+  "repository": "https://github.com/Sathish27/didyouseo-mcp",
+  "license": "MIT",
+  "keywords": ["seo", "seo-audit", "search-console", "google-analytics", "keyword-research", "backlinks", "indexnow", "pagespeed", "seo-report"]
+}
