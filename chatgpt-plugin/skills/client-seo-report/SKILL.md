@@ -53,6 +53,10 @@ Plan for next month
 
 Output Markdown the user can paste into an email or document.
 
+## Save and share
+
+After you show the report, offer to save it with `save_report` (title like "<Client> SEO report, <month>", the report as Markdown, and the `site_id`). If the user wants to send it to the client, call `set_report_sharing` with `public: true` and give them the `share_url`: the client opens it without an account. Only make a public link when the user asks. Skip this if the tools aren't available.
+
 ## Limits
 
 - If a tool says "The DidYouSEO trial on this account has ended", stop calling DidYouSEO tools, tell the user their DidYouSEO trial has ended, and finish with the data you have.

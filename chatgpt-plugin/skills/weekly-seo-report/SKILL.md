@@ -47,6 +47,10 @@ Next week
 
 No tables wider than three columns. No jargon without a short explanation.
 
+## Save the report
+
+After you show the report, offer to save it in the user's DidYouSEO account with `save_report` (title like "Weekly SEO report: <site>, <date>", the report as Markdown, and the `site_id`). Saved reports are private and show under Reports in the DidYouSEO dashboard. Next week, call `list_reports` and `get_report` to read last week's report and say what changed since then. Skip this if the tools aren't available.
+
 ## Limits
 
 - If a tool says "The DidYouSEO trial on this account has ended", stop calling DidYouSEO tools, tell the user their DidYouSEO trial has ended, and finish with the data you have.

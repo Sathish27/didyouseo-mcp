@@ -12,7 +12,7 @@ URL directly and sign in with OAuth — no install needed. This package is a sma
 
 ## Tools
 
-21 tools in five groups.
+31 tools in seven groups.
 
 **SEO audits and your sites** (sign-in required)
 - `run_seo_audit` — full SEO audit of any URL: score, issues and fixes
@@ -24,15 +24,29 @@ URL directly and sign in with OAuth — no install needed. This package is a sma
 - `get_search_console_keywords` — real queries: clicks, impressions, CTR and position
 - `get_search_console_changes` — biggest click gainers and losers between two periods
 - `get_search_console_cannibalization` — queries where several of your pages compete
+- `get_search_console_pages` — your top pages by clicks or impressions
+- `get_search_console_page_queries` — the searches one page shows up for
 
 **Google Analytics 4** (connect GA4 in DidYouSEO)
 - `get_ga4_organic_traffic` — organic sessions, engagement, key events, top landing
   pages and visits from AI assistants (ChatGPT, Perplexity, Gemini, Claude, Copilot)
 
+**ChatGPT Ads** (add an Ads Manager API key in DidYouSEO; read-only)
+- `list_chatgpt_ad_accounts` — every connected ad account with its results
+- `get_chatgpt_ads_performance` — spend, impressions, clicks, CTR, CPC and conversions for one account
+- `query_chatgpt_ads` — custom reports by campaign, ad group, ad, country, device, platform or product
+
 **Keywords and backlinks** (1 DidYouSEO AI credit per call; failed lookups are refunded)
 - `get_keyword_data` — search volume, difficulty, CPC and intent for up to 10 keywords
 - `get_keyword_ideas` — up to 50 keyword ideas for a seed phrase, sorted by volume
 - `get_backlink_summary` — domain rank, backlinks and referring domains for any domain
+
+**Saved reports and IndexNow** (sign-in required; free, no credits)
+- `save_report` / `list_reports` / `get_report` — save research as a Markdown report in your
+  account, list saved reports and read one back
+- `set_report_sharing` — turn a report's public link on or off
+- `submit_to_indexnow` — tell Bing and other IndexNow search engines about new and changed
+  pages on your site (needs a small key file on the site one time)
 
 **Free checks for any URL**
 - `run_pagespeed_insights` — Lighthouse scores, real-user Core Web Vitals and speed fixes

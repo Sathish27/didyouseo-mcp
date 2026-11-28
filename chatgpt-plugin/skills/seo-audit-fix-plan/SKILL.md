@@ -42,6 +42,10 @@ Already fine: <one line naming the main areas that passed>
 
 Keep it under 15 items. If there are more, show the top 15 and say how many were left out.
 
+## Save the plan
+
+After you show the fix plan, offer to save it with `save_report` (title like "SEO fix plan: <page or site>", the plan as Markdown, and the `site_id` if the site is registered), so the user can tick items off later from the dashboard. When the fixes are live, offer to call `submit_to_indexnow` with the changed URLs. Skip this if the tools aren't available.
+
 ## Limits
 
 - If a tool says "The DidYouSEO trial on this account has ended", stop calling DidYouSEO tools, tell the user their DidYouSEO trial has ended, and finish with the data you have.
