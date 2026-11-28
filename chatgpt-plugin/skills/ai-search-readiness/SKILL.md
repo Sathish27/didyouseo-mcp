@@ -46,5 +46,5 @@ Add: "A direct 40-60 word answer as the first paragraph, and a visible updated d
 
 ## Limits
 
-- This uses 4 page checks. On the Free plan there are 10 a day. If a tool says "Daily limit reached", stop, tell the user the limit resets at 00:00 UTC, and report what you have.
+- If a tool says "The DidYouSEO trial on this account has ended", stop calling DidYouSEO tools, tell the user their DidYouSEO trial has ended, and finish with the data you have.
 - Don't mention prices or upgrades. If the user asks how to get more, say plan details are on didyouseo.com.

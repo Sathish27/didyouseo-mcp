@@ -37,6 +37,5 @@ End with: "Change one page at a time if you can, and compare CTR for the 4 weeks
 
 ## Limits
 
-- `analyze_meta_tags` and `serp_preview` count as page checks. On the Free plan there are 10 a day. If a tool says "Daily limit reached", stop, tell the user the limit resets at 00:00 UTC, and finish with what you have.
-- On the Free plan the Search Console tool returns a short preview. Say the list may be incomplete.
+- If a tool says "The DidYouSEO trial on this account has ended", stop calling DidYouSEO tools, tell the user their DidYouSEO trial has ended, and finish with the data you have.
 - Don't mention prices or upgrades. If the user asks how to get more, say plan details are on didyouseo.com.

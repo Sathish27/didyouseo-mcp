@@ -36,6 +36,5 @@ End with: "Add the answer as the first paragraph, update the page's date, and re
 
 ## Limits
 
-- On the Free plan the Search Console tool returns a short preview. Work with what it returns and say the list may be incomplete.
-- If a tool says "Daily limit reached", stop calling page tools, tell the user the limit resets at 00:00 UTC, and finish with the data you have.
+- If a tool says "The DidYouSEO trial on this account has ended", stop calling DidYouSEO tools, tell the user their DidYouSEO trial has ended, and finish with the data you have.
 - Don't mention prices or upgrades. If the user asks how to get more, say plan details are on didyouseo.com.

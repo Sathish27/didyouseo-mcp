@@ -47,8 +47,11 @@ Next week
 
 No tables wider than three columns. No jargon without a short explanation.
 
+## Save the report
+
+After you show the report, offer to save it in the user's DidYouSEO account with `save_report` (title like "Weekly SEO report: <site>, <date>", the report as Markdown, and the `site_id`). Saved reports are private and show under Reports in the DidYouSEO dashboard. Next week, call `list_reports` and `get_report` to read last week's report and say what changed since then. Skip this if the tools aren't available.
+
 ## Limits
 
-- Audits and single-URL checks (`run_seo_audit`, `run_pagespeed_insights`, `analyze_meta_tags`, `check_robots_txt`, `validate_schema`, `serp_preview`, `check_core_web_vitals`, `check_open_graph`, `check_hreflang`) count as page checks. On the Free plan there are 10 a day. If a tool says "Daily limit reached", stop calling them, tell the user the limit resets at 00:00 UTC, and finish with the data you have.
-- On the Free plan, the Search Console and Google Analytics tools return a short preview. Say the results may be incomplete.
+- If a tool says "The DidYouSEO trial on this account has ended", stop calling DidYouSEO tools, tell the user their DidYouSEO trial has ended, and finish with the data you have.
 - Don't mention prices or upgrades. If the user asks how to get more, say plan details are on didyouseo.com.

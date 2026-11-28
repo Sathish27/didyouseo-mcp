@@ -53,8 +53,11 @@ Plan for next month
 
 Output Markdown the user can paste into an email or document.
 
+## Save and share
+
+After you show the report, offer to save it with `save_report` (title like "<Client> SEO report, <month>", the report as Markdown, and the `site_id`). If the user wants to send it to the client, call `set_report_sharing` with `public: true` and give them the `share_url`: the client opens it without an account. Only make a public link when the user asks. Skip this if the tools aren't available.
+
 ## Limits
 
-- Audits and single-URL checks (`run_seo_audit`, `run_pagespeed_insights`, `analyze_meta_tags`, `check_robots_txt`, `validate_schema`, `serp_preview`, `check_core_web_vitals`, `check_open_graph`, `check_hreflang`) count as page checks. On the Free plan there are 10 a day. If a tool says "Daily limit reached", stop calling them, tell the user the limit resets at 00:00 UTC, and finish with the data you have.
-- On the Free plan, the Search Console and Google Analytics tools return a short preview. Say the results may be incomplete.
+- If a tool says "The DidYouSEO trial on this account has ended", stop calling DidYouSEO tools, tell the user their DidYouSEO trial has ended, and finish with the data you have.
 - Don't mention prices or upgrades. If the user asks how to get more, say plan details are on didyouseo.com.
